@@ -1,0 +1,112 @@
+/* top=> parte cima
+right => direita
+bottom => parte baixo
+left: -> esquerda */
+.demonstracao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+
+}
+
+
+.borda-solid {
+
+    border-top-style: solid;
+    border-top-color: #000;
+    border-top-width: 1px;
+
+
+    border-right-style: solid;
+    border-right-color: #000;
+    border-right-width: 1px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 1px;
+
+    border-left-style: solid;
+    border-left-color: #960b0b;
+    border-left-width: 1px;
+
+}
+
+.borda-dashed {
+
+    border-top: 4px dashed #f59e0b;
+    border-right: 4px dashed #f59e0b;
+    border-bottom: 4px dashed #f59e0b;
+    border-left: 4px dashed #f59e0b;
+
+
+}
+
+.borda-dotted {
+
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #7c3aed;
+    border-style: double;
+
+}
+
+.borda-groove {
+    border: 8px #3b82f6 groove;
+
+
+}
+
+.borda-ridge {
+    border-width: 8px;
+    border-style: ridge ridge ridge ridge;
+    border-color: #10b981;
+
+}
+
+.borda-inset {
+    border-width: 8px;
+    border-style: inset;
+    border-color: #ec4899;
+
+}
+
+.borda-outset {
+    border-width: 8px;
+    border-style: outset;
+    border-color: #eab308;
+    border-radius: 10px;
+    /* cima direita baixo esquerda
+    se os valores forem iguais e dir e esq foram iguais tbem*/
+
+}
+
+.borda-double {
+    border-width: 6px 8px;
+    border-color: #7c3aed;
+    border-style: double;
+}
+
+.borda-radius-diferente {
+    border: 8px #b89525
+  
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 40px;
+}
+
+.borda-radius-diferente:hover {
+
+    border-color: #6e6a59;
+    cursor: pointer
+}
+
+.borda-radius-iguais {
+    border: 4px #12Ab12 dashed;
+    border-radius: 100px;
+
+
+}
