@@ -13,15 +13,15 @@ h2{
 div{
 
     background-color: #004d8e;
-}
-
-a{
-    color: #fff;
-    /*altera a decoração do texto. none faz com q o texto n tenha nenhuma decoração*/
-    text-decoration: none;
-}
-/*hover é o efeito para destacar o texto*/
-a:hover{
-    color: #ff6500
-
+    
+    a{
+        color: #fff;
+        /*altera a decoração do texto. none faz com q o texto n tenha nenhuma decoração*/
+        text-decoration: none;
+    }
+    /*hover é o efeito para destacar o texto*/
+    a:hover{
+        color: #ff6500
+        
+    }
 }
