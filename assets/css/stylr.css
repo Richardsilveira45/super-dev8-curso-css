@@ -1,0 +1,19 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: #0a4076;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: large;
+    display: block
+    
+}
+h2{
+    color:white: 25px;
+    text-align: :center;
+    font-size: medium;
+}
