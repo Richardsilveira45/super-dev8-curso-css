@@ -1,3 +1,16 @@
+:root{
+
+    --section-background-color:#e01313;
+    --section-border-color:#17881c;
+    --item-background-color:#090a12;
+    --body-background-color:#f5f5f5;
+    --item-color:#fbfbfb;
+    --flex-container-border-color:#d3ad14;
+    --flex-container-background-color:#ee8937;
+    --descrition-color:#ff1919;
+
+}
+
 * {
     box-sizing: content-box
 }
@@ -6,7 +19,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: var(--body-background-color);
 }
 
 h1 {
@@ -29,13 +42,13 @@ div.section {
 
 .description {
     font-size: 14px;
-    color: #555;
+    color: var(--descrition-color);
     margin-bottom: 12px;
 }
 
 .item {
-    background-color: #8d1c87;
-    color: white;
+    background-color: var(--item-background-color);
+    color: var(--item-color);
     padding: 10px;
     margin: 4px;
     border-radius: 4px;
@@ -44,10 +57,10 @@ div.section {
 
 .flex-container {
     display: flex;
-    border: 1px dashed #999;
+    border: var(--flex-container-border-color);
     padding: 10px;
     min-height: 80px;
-    background-color: #fafafa;
+    background-color:var(--flex-container-background-color);
 }
 
 .exemplo1 {
@@ -93,4 +106,48 @@ div.section {
 
 .mb-2 {
     margin-bottom: 8px;
+}
+.flex-altura {
+    min-height: 120px;
+}
+.item-baixo{
+
+    font-size:12px;
+    padding-top:10px;
+    padding-bottom: 5px;
+
+}.item-medio{
+
+    font-size:12px;
+   padding: 10px;
+}
+.item-alto{
+
+    font-size:20px;
+    padding-top:5px;
+    padding-bottom: 20px;
+}
+.align-items-flex-start {
+    align-items: flex-start;
+    
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-flex-end {
+    align-items: flex-end;
+
+}   
+.align-items-stretch {
+    align-items: stretch;
+
+}   
+.align-items-baseline {
+    align-items: baseline;
+    
+}
+.align-content-flex-start {
+    align-content: flex-start;
+    gap: 50px;
+
 }
